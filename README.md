@@ -10,8 +10,7 @@
 
 ## Introduction
 
-A simple Python script for playing the Hangman game. Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts.
-This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. 
+This Python script presents a text-based version of the classic Hangman game. In Hangman, the computer chooses a secret word, and the player's objective is to guess this word correctly within a limited number of attempts. The player guesses one letter at a time, and the script checks if the guessed letter is present in the secret word. If the guess is correct, the script reveals the positions of the guessed letter(s) in the word, providing a fun and interactive word-guessing experience for players.
 
 ## Prerequisites
 
