@@ -13,9 +13,9 @@ class Hangman:
         guess = guess.lower()   # Converts the guessed letter to lowercase 
         if guess in self.word:   # Checks if the letter is in the randomly chosen word
             print(f"Good guess! {guess} is in the word.")
-            for i in range(len(self.word)):  # replaces _ with the letter 
-                if self.word[i] == guess:
-                    self.word_guessed[i] = guess
+            for index in range(len(self.word)):  # replaces _ with the letter 
+                if self.word[index] == guess:
+                    self.word_guessed[index] = guess
                     self.num_letters -= 1
         else:
             self.num_lives -= 1
