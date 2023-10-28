@@ -26,7 +26,9 @@ Clone the repository or download the Python script to your local machine.
 To play the game follow these steps:
 1. Run the Python script.
 2. Enter a single letter when prompted.
-3. The program will respond with "Good guess" for valid input or "Oops! That is not a valid input" for invalid input.
+3. The program will respond with "Good guess" for valid input or "Sorry, {letter} is not in the word. Try again" for invalid or incorrect input.
+4. Continue to guess letters and uncover the secret word.
+5. If you successfully guess the word, the program will display "Congratulations. You won the game!" If you run out of lives without guessing the word, it will display "You lost!"
 
 ## License
 
